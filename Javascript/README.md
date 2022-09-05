@@ -9,3 +9,8 @@
 06. 데이터 타입
 07. 연산자
 08. 제어문
+### [Week3](https://github.com/sr0020/TIL/tree/main/Javascript/week%203)
+09. 타입변환과 단축평가
+10. 객체 리터럴
+11. 원시 값과 객체의 비교
+12. 함수

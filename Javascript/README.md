@@ -14,3 +14,8 @@
 10. 객체 리터럴
 11. 원시 값과 객체의 비교
 12. 함수
+### [Week4](https://github.com/sr0020/TIL/tree/main/Javascript/week%204)
+13. 스코프
+14. 전역 변수의 문제점
+15. var, let, const 키워드와 블록 레벨 스코프
+16. 프로퍼티 

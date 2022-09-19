@@ -19,3 +19,8 @@
 14. 전역 변수의 문제점
 15. var, let, const 키워드와 블록 레벨 스코프
 16. 프로퍼티 
+### [Week5](https://github.com/sr0020/TIL/tree/main/Javascript/week%205)
+17. 생성자 함수에 의한 객체 생성
+18. 함수와 일급객체
+19. 프로토타입
+20. Strict Mode

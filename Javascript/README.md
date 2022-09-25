@@ -24,3 +24,8 @@
 18. 함수와 일급객체
 19. 프로토타입
 20. Strict Mode
+### [Week6](https://github.com/sr0020/TIL/tree/main/Javascript/week%206)
+21. 빌트인 객체
+22. this
+23. 실행 컨텍스트
+24. 클로저

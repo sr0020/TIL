@@ -29,3 +29,8 @@
 22. this
 23. 실행 컨텍스트
 24. 클로저
+### [Week7](https://github.com/sr0020/TIL/tree/main/Javascript/week%207)
+25. 클래스
+26. ES6 함수의 추가 기능
+27. 배열
+28. Number

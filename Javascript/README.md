@@ -1,4 +1,4 @@
-# Javascript TIL
+# Javascript (JS Deep Dive)
 ### [Week1](https://github.com/sr0020/TIL/tree/main/Javascript/week%201)
 01. 프로그래밍
 02. 자바스크립트란

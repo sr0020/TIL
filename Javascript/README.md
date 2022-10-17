@@ -34,3 +34,14 @@
 26. ES6 함수의 추가 기능
 27. 배열
 28. Number
+### [Week8](https://github.com/sr0020/TIL_FE/tree/main/Javascript/week%208)
+29. Math
+30. Date
+31. ResExp
+32. String
+33. Symbol
+### [Week9](https://github.com/sr0020/TIL_FE/tree/main/Javascript/week%209)
+34. 이터러블
+35. 스프레드 문법
+36. 디스트럭처링 할당
+37. Set과 Map

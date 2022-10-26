@@ -50,4 +50,9 @@
 39. DOM_1 / DOM_2
 40. 이벤트
 41. 타이머
+### [Week11](https://github.com/sr0020/TIL_FE/tree/main/Javascript/week_11)
+42. 비동기 프로그래밍
+43. Ajax
+44. REST API
+45. 프로미스
 

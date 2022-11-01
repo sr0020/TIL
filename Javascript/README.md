@@ -55,4 +55,8 @@
 43. Ajax
 44. REST API
 45. 프로미스
-
+### [Week12]()
+46. 제너레이터와 async, await
+47. 에러 처리
+48. 모듈
+49. Babel과 Webpack을 이용한 ES6+, ES.NEXT 개발 환경 구축

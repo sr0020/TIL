@@ -55,7 +55,7 @@
 43. Ajax
 44. REST API
 45. 프로미스
-### [Week12](https://github.com/sr0020/TIL_FE/tree/main/Javascript/)
+### [Week12](https://github.com/sr0020/TIL_FE/tree/main/Javascript/week_12)
 46. 제너레이터와 async, await
 47. 에러 처리
 48. 모듈

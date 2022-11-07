@@ -3,5 +3,5 @@
 ### [JavaScript (JS Deep Dive)](https://github.com/sr0020/TIL/tree/main/Javascript)
 ---
 ## ETC (Basic CS Preview)
-### [Algoritms]()
-### [DataBase]()
+### [Algoritms](https://github.com/sr0020/TIL_FE/tree/main/Algoritms)
+### [DataBase](https://github.com/sr0020/TIL_FE/tree/main/Date%20Base)

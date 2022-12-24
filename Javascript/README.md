@@ -34,28 +34,28 @@
 26. ES6 함수의 추가 기능
 27. 배열
 28. Number
-### [Week8](https://github.com/sr0020/TIL_FE/tree/main/Javascript/week%208)
+### [Week8](https://github.com/sr0020/TIL/tree/main/Javascript/week%208)
 29. Math
 30. Date
 31. ResExp
 32. String
 33. Symbol
-### [Week9](https://github.com/sr0020/TIL_FE/tree/main/Javascript/week%209)
+### [Week9](https://github.com/sr0020/TIL/tree/main/Javascript/week%209)
 34. 이터러블
 35. 스프레드 문법
 36. 디스트럭처링 할당
 37. Set과 Map
-### [Week10](https://github.com/sr0020/TIL_FE/tree/main/Javascript/week_10)
+### [Week10](https://github.com/sr0020/TIL/tree/main/Javascript/week_10)
 38. 브라우저 렌더링이란 / 브라우저 렌더링 과정
 39. DOM_1 / DOM_2
 40. 이벤트
 41. 타이머
-### [Week11](https://github.com/sr0020/TIL_FE/tree/main/Javascript/week_11)
+### [Week11](https://github.com/sr0020/TIL/tree/main/Javascript/week_11)
 42. 비동기 프로그래밍
 43. Ajax
 44. REST API
 45. 프로미스
-### [Week12](https://github.com/sr0020/TIL_FE/tree/main/Javascript/week_12)
+### [Week12](https://github.com/sr0020/TIL/tree/main/Javascript/week_12)
 46. 제너레이터와 async, await
 47. 에러 처리
 48. 모듈

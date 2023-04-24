@@ -32,7 +32,6 @@ class Texture(ps.QtWidgets.QDialog):
         super(Texture, self).__init__(parent)
     
         # 기본 window UI setting
-        # is it base setting method?
         self.setWindowTitle("Apply Texture Window")
         self.setMinimumSize(300, 80)
         self.setWindowFlags(self.windowFlags() ^ ps.QtCore.Qt.WindowContextHelpButtonHint) # 도움말 표시 삭제 
@@ -53,15 +52,12 @@ class Texture(ps.QtWidgets.QDialog):
         self.texturePathButton.setFileChooserFilter(hou.fileType.Directory)
         
     def CreateLayouts(self):
-    
-        # Horizontal Box Layout
-        
+            
         # directory path (line, button)
         directoryPathLayout = ps.QtWidgets.QHBoxLayout()
         directoryPathLayout.addWidget(self.texturePathLineEdit)
         directoryPathLayout.addWidget(self.texturePathButton)
         
-        # texture button과 texture path button의 차이? 
         createAgentLayout = ps.QtWidgets.QHBoxLayout()
         createAgentLayout.addWidget(self.textureButton)
         
@@ -69,11 +65,11 @@ class Texture(ps.QtWidgets.QDialog):
         formLayout.addRow('Folder Path: ', directoryPathLayout)
         formLayout.addRow(createAgentLayout)
         
-        mainLayout = ps.QtWidgets.QVBoxLayout(self) # ?? why use self
-        mainLayout.addLayout(formLayout) # not addWidget
+        mainLayout = ps.QtWidgets.QVBoxLayout(self) 
+        mainLayout.addLayout(formLayout) 
     
     def CreateConnection(self):
-        self.texturePathButton.fileSelected.connect(self.setTexturePathLineEditText) # self.setTexturePathLineEditText ?? 뭔 변수 
+        self.texturePathButton.fileSelected.connect(self.setTexturePathLineEditText)
         self.textureButton.clicked.connect(self.assignTexture)
        
     def setTexturePathLineEditText(self, file_path):

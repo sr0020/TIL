@@ -16,7 +16,7 @@ def listAssetPaths():
         print(assetPath)
 
 # 선택한 asset 콘솔창에 띄우기
-def getSelectionContentsBrower():
+def getSelectionContentsBrowser():
     EUL = unreal.EditorUtilityLibrary
     selectedAssets = EUL.get_selected_assets()
 

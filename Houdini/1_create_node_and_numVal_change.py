@@ -14,7 +14,7 @@ height = 1
 width = 3
 depth = 2
 
-# assnng var to box parameters
+# assign var to box parameters
 box.parm('sizex').set(width)
 box.parm('sizey').set(height)
 box.parm('sizez').set(depth)

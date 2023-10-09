@@ -1,0 +1,41 @@
+주피터 노트북(Jupyter Notebook)과 터미널(Terminal)이 서로 다른 파이썬 가상환경을 사용할 때가 있습니다.
+(이렇게 되면 가상환경이 다른 상황에서 작업하다보면 패키지 충돌 등의 문제가 발생할 수 있습니다.)
+
+# 가상환경 생성
+python -m venv myenv
+(or) conda create --name myenv python=3.8
+
+# 가상환경 활성화
+myenv\Scripts\activate
+(or) conda activate myenv
+
+# 가상환경 비활성화
+deactivate
+(or) conda deactivate
+
+pip install ipykernel  # 주피터 커널 설치
+jupyter kernelspec list # 터미널에서 사용되던 파이썬 경로를 주피터 커널에 연결
+
+conda info --envs # 현재 활성화된 가상환경 확인 (window)
+
+python -m ipykernel install --user --name [가상환경 이름] --display-name"[사용자가 설정하는 커널 이름]"   # 커널 설정
+(python -m ipykernel install --user --name venv --display-name "My_Kernel")
+
+jupyter kernelspec list # 추가된 커널을 확인
+
+jupyter notebook # 주피터 노트북 실행
+
+new (새 파일 생성) 시, My_Kernel 가상환경 통해 작업 
+(지금까지 작업했던 Python3 말고)
+-----------------
+주피터 노트북 커널:
+
+주피터 노트북에서 코드를 실행하는 환경을 의미합니다.
+커널은 특정 가상환경에 연결하여 해당 가상환경의 패키지와 설정을 사용하여 코드를 실행합니다.
+주피터 노트북을 실행할 때 커널을 선택하면, 해당 커널의 가상환경에서 코드를 실행하게 됩니다.
+가상환경에 패키지를 설치하고 관리하는 작업을 주로 수행합니다.
+
+---
+(python -m ipykernel install --user --name venv --display-name "My_Kernel") => 이부분에서 venv는 현재 존재하는 가상환경 말하는 거겠지? 
+
+네, 맞습니다. 해당 명령어에서 venv는 이미 생성된 가상환경의 이름을 나타내며, 새로운 주피터 노트북 커널을 생성할 때 사용하는 이름입니다. 위 명령어를 실행하면, 해당 가상환경의 이름인 venv를 가진 새로운 주피터 노트북 커널이 생성됩니다. 이 커널을 선택하여 주피터 노트북에서 가상환경에 설치된 패키지와 설정을 사용하여 코드를 실행할 수 있게 됩니다.
